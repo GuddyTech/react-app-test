@@ -7,7 +7,7 @@ function SearchComp() {
             <input type="text" /> 
             <Button />
             
-        </div>f
+        </div>
     )
 }
 
