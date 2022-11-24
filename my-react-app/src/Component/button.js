@@ -14,3 +14,9 @@ export function CustomButton({onClick, children}) {
         <button onClick={onClick}>{children}</button>
     );
 }
+
+export function NavLink({path, children}) {
+    return (
+        <a href={path}>{children}</a>
+    ); 
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { CustomButton, NavLink } from './button';
 
 
 const Counter = () => {
@@ -25,10 +26,12 @@ const Counter = () => {
             
             <h1>{count}</h1>
             <button onClick={decrementValue}>Decrement</button>
-
             <button onClick={increaseValue}>Increment</button>
 
-            
+            <CustomButton onClick={decrementValue}> Sign Up </CustomButton>
+            <CustomButton onClick={increaseValue}> Sign In </CustomButton>
+
+            <NavLink path="https://www.google.com">Home</NavLink>
 
 
 
